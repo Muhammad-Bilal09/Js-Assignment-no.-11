@@ -1,0 +1,57 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#particles-js
+{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    /* z-index: -100; */
+}
+main{
+    background-color: darkgray;
+    overflow: hidden;
+    position: relative;
+}
+.container h4{
+    text-align: center;
+    margin-top: 35px;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 86.50vh;
+}
+
+.button{
+    align-items: space;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.block{
+    text-align: center;
+    margin-top: 70px;   
+}
+.output{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 40px;
+}
+.block2{
+    text-align: center;
+    margin-top: 60px;   
+}
+footer{
+    text-align: center;
+    background-color: rgb(52, 52, 68);
+    color: red;
+}
+footer u{
+    color: darkgreen; 
+}
